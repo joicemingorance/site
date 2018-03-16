@@ -1,0 +1,64 @@
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+/*SÓ PRA TESTE, VOCÊ APAGA ^^*/
+.container-flex {
+    display: flex;
+    justify-content: center;
+}
+.container-flex article {
+    background-color: tomato;
+    line-height: 1.5em;
+    font-family: 'Helvetica';
+    color: white;
+    padding: 10px;
+    margin: 20px;
+}
+/*MAIN HEADER*/
+.main_header {
+    /*caso o browser não reconheça vh*/
+    height: 700px;
+    height: 80vh;
+    background-image: url(../img/bg2.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main_header nav {
+    margin: 20px 0;
+    float: right;
+}
+
+.main_header nav:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.main_header li {display: inline-block;}
+.main_header li a {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #FFF;
+}
+.main_header li a:last-of-type {padding-rightss: 0;}
+
+.intro-info {
+    float: right;
+    padding: 100px 0;
+}
+
+.intro-info h1 {
+    text-align: center;
+    color: #FFF;
+}
+
+.intro-info p {
+
+}
